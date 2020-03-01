@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+main(){
+
+char n,*dots="4&j*g/c.`/b,d,f,d(h*e.`0_0B%73?*371!)*/>.\"%,0E(\"&(4]4N!,6L\",/&!K(&/U&%4P(#3T(!5&!GC%!ELCLCN>R>R<T:V9X8Y4\\3^0a0`/b.c,d,d,f(h&k$T";
+
+int bit=1,col=0;
+
+for(;n=*dots++;bit=!bit)
+
+for(;n>' ';n--)
+
+putchar(++col%80?(bit?'~':'.'):'\n');
+
+}
